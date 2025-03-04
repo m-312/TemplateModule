@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.templatemodule2.dataClasssController">
+   <children>
+      <TextField fx:id="CourseNameText" layoutX="33.0" layoutY="103.0" prefHeight="25.0" prefWidth="507.0" promptText="Enter Course Name" />
+      <Label layoutX="33.0" layoutY="27.0" text="Course Data">
+         <font>
+            <Font size="41.0" />
+         </font>
+      </Label>
+      <TextField fx:id="CourseCapacityText" layoutX="33.0" layoutY="174.0" prefHeight="25.0" prefWidth="507.0" promptText="Enter Course Capacity" />
+      <TextField fx:id="CourseCodeText" layoutX="33.0" layoutY="137.0" prefHeight="25.0" prefWidth="507.0" promptText="Enter Course Code" />
+      <Button fx:id="courseDataSubmit" layoutX="439.0" layoutY="325.0" mnemonicParsing="false" onAction="#onCourseSubmitButton" text="Submit" />
+      <Button fx:id="courBackButton" layoutX="53.0" layoutY="325.0" mnemonicParsing="false" onAction="#onCourBackButton" text="Back" />
+   </children>
+</AnchorPane>

@@ -12,19 +12,19 @@ import java.io.IOException;
 public class main extends Application {
     static public char userType = 'u';
 
-    public static void switchScene (Stage stage,  String s) throws IOException {
-        /*FXMLLoader subManagment = new FXMLLoader(runApplication.class.getResource("subModule.fxml"));
-        FXMLLoader courManagment = new FXMLLoader(runApplication.class.getResource("courModule.fxml"));
-        FXMLLoader studManagment = new FXMLLoader(runApplication.class.getResource("studModule.fxml"));
-        FXMLLoader facManagment = new FXMLLoader(runApplication.class.getResource("facModule.fxml"));
-        FXMLLoader evenManagment = new FXMLLoader(runApplication.class.getResource("evenModule.fxml"));
-        FXMLLoader logModule = new FXMLLoader(runApplication.class.getResource("logModule.fxml"));
+    public static void switchScene (Stage stage,  String s) throws IOException { /*
+        FXMLLoader subManagment = new FXMLLoader(main.class.getResource("subModule.fxml"));
+        FXMLLoader courManagment = new FXMLLoader(main.class.getResource("courModule.fxml"));
+        FXMLLoader studManagment = new FXMLLoader(main.class.getResource("studModule.fxml"));
+        FXMLLoader facManagment = new FXMLLoader(main.class.getResource("facModule.fxml"));
+        FXMLLoader evenManagment = new FXMLLoader(main.class.getResource("evenModule.fxml"));
+        FXMLLoader logModule = new FXMLLoader(main.class.getResource("logModule.fxml"));
 
-        //Scene subManagmentScene = new Scene(subManagment.load());
-        //Scene courManagmentScene = new Scene(courManagment.load());
-        //Scene studManagmentScene = new Scene(studManagment.load());
-        //Scene facManagmentScene = new Scene(facManagment.load());
-        //Scene evenManagmentScene = new Scene(evenManagment.load());
+        Scene subManagmentScene = new Scene(subManagment.load());
+        Scene courManagmentScene = new Scene(courManagment.load());
+        Scene studManagmentScene = new Scene(studManagment.load());
+        Scene facManagmentScene = new Scene(facManagment.load());
+        Scene evenManagmentScene = new Scene(evenManagment.load());
         Scene logModuleScene = new Scene(logModule.load());
 
         if (s == "subjectManagement")
@@ -62,9 +62,9 @@ public class main extends Application {
             stage.setTitle("loginModule");
             stage.setScene(logModule);
             stage.show();
-        }
+        }*/
 
- */
+
     }
 
 
